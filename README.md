@@ -237,5 +237,5 @@ WHERE YEAR(date_of_birth)<'1990';
 #### 24. Show loans that will end in the next 5 years.
 ```sql
 SELECT * FROM Loans
-WHERE end_date IN (CURDATE(),DATE_ADD(CURDATE(),INYERVAL 5 YEAR));
+WHERE end_date IN (CURDATE(),DATE_ADD(CURDATE(), INTERVAL 5 YEAR));
 ```
