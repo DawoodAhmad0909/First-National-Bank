@@ -1,0 +1,6 @@
+transaction_id,account_id,transaction_type,amount,transaction_date,description
+1,1001,Deposit,1000.00,"2023-01-11 10:30:00","Initial Deposit"
+2,1001,Withdrawal,500.00,"2023-01-12 14:45:00","ATM Withdrawal"
+3,1002,Deposit,2000.00,"2023-01-12 15:20:00","Paycheck Deposit"
+4,1003,Transfer,1500.00,"2023-01-15 11:10:00","Transfer to Friend"
+5,1004,Deposit,500.00,"2023-01-16 09:05:00","Cash Deposit"

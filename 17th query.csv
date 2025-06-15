@@ -1,0 +1,6 @@
+Customer_name,transaction_id,account_id,account_type,transaction_type,amount,transaction_date,description
+"John Smith",1,1001,Savings,Deposit,1000.00,"2023-01-11 10:30:00","Initial Deposit"
+"John Smith",2,1001,Savings,Withdrawal,500.00,"2023-01-12 14:45:00","ATM Withdrawal"
+"John Smith",3,1002,Checking,Deposit,2000.00,"2023-01-12 15:20:00","Paycheck Deposit"
+"Jane Doe",4,1003,Savings,Transfer,1500.00,"2023-01-15 11:10:00","Transfer to Friend"
+"Robert Johnson",5,1004,Checking,Deposit,500.00,"2023-01-16 09:05:00","Cash Deposit"

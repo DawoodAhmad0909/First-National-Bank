@@ -1,0 +1,4 @@
+customer_id,Customer_name,card_id,card_type,card_number,expiry_date,cvv,issued_date,status
+1,"John Smith",501,Debit,4532-7890-1234-5678,2026-05-01,123,2023-01-15,Active
+2,"Jane Doe",502,Credit,5123-4567-8901-2345,2027-08-01,456,2023-01-20,Active
+3,"Robert Johnson",503,Debit,4000-1234-5678-9012,2025-12-01,789,2023-02-01,Blocked

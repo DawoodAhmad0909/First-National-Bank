@@ -1,0 +1,6 @@
+Customer_name,account_id,account_type,balance
+"John Smith",1001,Savings,5000.00
+"John Smith",1002,Checking,2500.00
+"Jane Doe",1003,Savings,12000.00
+"Robert Johnson",1004,Checking,750.00
+"Emily Williams",1005,Savings,3000.00

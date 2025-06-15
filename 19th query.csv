@@ -1,0 +1,4 @@
+employee_id,Employee_name,branch_id,branch_name
+101,"Michael Brown",1,"Main Branch"
+102,"Sarah Wilson",1,"Main Branch"
+103,"David Lee",2,"Downtown Branch"

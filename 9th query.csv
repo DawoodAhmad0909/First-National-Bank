@@ -1,0 +1,2 @@
+card_id,customer_id,card_type,card_number,expiry_date,cvv,issued_date,status
+503,3,Debit,4000-1234-5678-9012,2025-12-01,789,2023-02-01,Blocked

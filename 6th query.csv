@@ -1,0 +1,2 @@
+customer_id,first_name,last_name,email,phone,address,city,state,zip_code,date_of_birth,created_at
+1,John,Smith,john.smith@email.com,555-123-4567,"123 Main St","New York",NY,10001,1985-03-15,"2023-01-10 09:30:00"

@@ -1,0 +1,4 @@
+customer_id,Customer_name,loan_id,loan_type,amount,email,phone
+1,"John Smith",101,Personal,10000.00,john.smith@email.com,555-123-4567
+3,"Robert Johnson",102,Mortgage,200000.00,robert@email.com,555-456-7890
+4,"Emily Williams",103,Auto,15000.00,emily@email.com,555-654-3210

@@ -1,0 +1,3 @@
+transaction_id,account_id,transaction_type,amount,transaction_date,description
+2,1001,Withdrawal,500.00,"2023-01-12 14:45:00","ATM Withdrawal"
+3,1002,Deposit,2000.00,"2023-01-12 15:20:00","Paycheck Deposit"

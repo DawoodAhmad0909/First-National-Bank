@@ -1,0 +1,2 @@
+card_id,customer_id,card_type,card_number,expiry_date,cvv,issued_date,status
+502,2,Credit,5123-4567-8901-2345,2027-08-01,456,2023-01-20,Active

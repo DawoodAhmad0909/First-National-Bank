@@ -1,0 +1,2 @@
+loan_id,customer_id,loan_type,amount,interest_rate,start_date,end_date,status
+103,4,Auto,15000.00,6.20,2023-03-01,2028-03-01,Pending

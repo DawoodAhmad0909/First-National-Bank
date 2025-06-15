@@ -1,0 +1,6 @@
+account_id,customer_id,account_type,balance,opened_date,status
+1001,1,Savings,5000.00,2023-01-10,Active
+1002,1,Checking,2500.00,2023-01-10,Active
+1003,2,Savings,12000.00,2023-01-12,Active
+1004,3,Checking,750.00,2023-01-15,Active
+1005,4,Savings,3000.00,2023-01-20,Active
