@@ -1,4 +1,0 @@
-loan_id,customer_id,loan_type,amount,interest_rate,start_date,end_date,status
-101,1,Personal,10000.00,5.50,2023-02-01,2026-02-01,Active
-102,3,Mortgage,200000.00,3.80,2023-02-15,2043-02-15,Active
-103,4,Auto,15000.00,6.20,2023-03-01,2028-03-01,Pending
