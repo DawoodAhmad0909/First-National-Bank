@@ -113,7 +113,7 @@ SELECT account_id, account_type, balance FROM Accounts;
 #### 3. Show all transactions sorted by date (newest first).
 ```sql
 SELECT * FROM Transactions
-ORDER BY transaction_date;
+ORDER BY transaction_date DESC;
 ```
 #### 4. Find all active loans along with their loan types and amounts.
 ```sql
@@ -140,7 +140,7 @@ WHERE account_type='Savings' AND balance>5000.00;
 #### 8. Show all transactions of type 'Deposit' that exceed $1,000.
 ```sql
 SELECT * FROM Transactions
-WHERE transaction_type='Deposit';
+WHERE transaction_type='Deposit' AND amount>1000.00;
 ```
 #### 9. Find all blocked cards (status = 'Blocked').
 ```sql
@@ -158,7 +158,7 @@ SELECT SUM(balance) AS Total_amount_in_bank FROM Accounts;
 ```
 #### 12. Find the average loan amount for each loan type (Personal, Mortgage, Auto).
 ```sql
-SELECT loan_type, ROUND(AVG(amount),2) AS Average_loan_ammount FROM Loans
+SELECT loan_type, ROUND(AVG(amount),2) AS Average_loan_amount FROM Loans
 GROUP BY loan_type;
 ```
 #### 13. Count the number of customers per city.
@@ -237,5 +237,5 @@ WHERE YEAR(date_of_birth)<'1990';
 #### 24. Show loans that will end in the next 5 years.
 ```sql
 SELECT * FROM Loans
-WHERE FLOOR(DATEDIFF(NOW(),end_date)/365.25)<5;
+WHERE end_date IN (CURDATE(),DATE_ADD(CURDATE(),INYERVAL 5 YEAR));
 ```
