@@ -2,7 +2,21 @@
 ## Overview
 #### Project: Bank Database Analysis 
 #### Database: FNB_db
+The FNB_db is a relational database designed to manage and organize essential information for a financial institution, such as a bank. It stores data related to customers, employees, branches, accounts, transactions, loans, and cards. The database structure ensures efficient tracking of banking operations, customer interactions, and financial services, all while maintaining data integrity through foreign key relationships.
 ## Objectives 
+#### 1. Customer Management:
+Store detailed information on bank customers, including contact details and account affiliations.
+#### 2. Account & Transaction Tracking:
+Maintain records of various account types and all associated transactions for transparency and auditing.
+#### 3. Branch and Employee Organization:
+Link employees to specific branches to track staffing and administrative responsibilities.
+#### 4. Loan Monitoring: 
+Record and monitor personal, auto, and mortgage loans, including amounts, interest rates, and statuses.
+#### 5. Card Issuance and Control: 
+Manage credit and debit card information, including card status, type, and expiry.
+#### 6. Data Analysis and Reporting: 
+Enable meaningful business insights such as customer distribution by city, total account balances, and loan statistics using SQL queries.
+
 ## Database Creation
 ``` SQL
 CREATE DATABASE FNB_db;
@@ -239,3 +253,5 @@ WHERE YEAR(date_of_birth)<'1990';
 SELECT * FROM Loans
 WHERE end_date BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 5 YEAR);
 ```
+## Conclusion
+The FNB_db provides a comprehensive and scalable foundation for managing the core operations of a banking system. With clearly defined relationships and structured queries, it supports secure data handling, operational efficiency, and insightful financial reporting. It can serve as a base for further expansion into advanced banking features such as digital wallets, loan repayments, fraud detection, or customer analytics.
